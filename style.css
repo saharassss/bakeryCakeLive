@@ -1,0 +1,508 @@
+:root {
+    --main-color: #d18a8a; /* Тот самый пыльно-розовый  */
+    --bg-light: #fdf5ec;
+    --text-dark: #4a4a4a;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: var(--text-dark);
+     background-repeat: no-repeat, repeat;
+    background-position: top center, center;
+    background-size: 100% auto, auto;
+    min-height: 200vh;
+     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('для курача/обои 2.jpg');
+    background-size: 1920px 530px;   /* точный размер */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center 4.5%;
+    
+}
+
+.logo{
+    font-family: Lily Script One;
+    font-size: 40px;
+    color: #93BB8B;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+
+.text8{
+    font-family: Lily Script One;
+    font-size: 40px; 
+}
+
+
+.text7{
+    font-size: 18px; 
+}
+
+.foto2{
+    background-image: url('для курача/i.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center 10%;
+    position: absolute;
+        margin-top: 950px;
+        z-index: -1;
+        
+
+}
+
+.foto3{
+    background-image: url('');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center 10%;
+    position: absolute;
+        margin-top: -60px;
+        margin-left: 12px ;
+        z-index: -1;  
+}
+
+.foto4{
+    background-image: url('');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center 10%;
+    position: absolute;
+        margin-top: -60px;
+        margin-left: 1200px ;
+        z-index: -1;  
+} 
+
+.foto5{
+    background-image: url('');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center 10%;
+    position: absolute;
+        margin-top: 240px;
+        margin-left: 130px ;
+        z-index: -1;  
+} 
+
+.foto6{
+    background-image: url('');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center 10%;
+    position: absolute;
+        margin-top: 650px;
+        margin-left: 600px ;
+        z-index: -1;  
+} 
+
+.foto7{
+    background-image: url('');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center 10%;
+    position: absolute;
+        margin-top: 480px;
+        margin-left: 1350px ;
+        z-index: -1;  
+} 
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.header {
+    background-color: var(--main-color);
+    padding: 15px 0;
+    color: white;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Hero */
+.hero {
+    height: 450px;
+    background: url('hero-bg.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+.btn-main {
+    display: inline-block;
+    background-color: var(--main-color);
+    color: white;
+    padding: 12px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Blocks */
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.adv-icons {
+    display: flex;
+    gap: 10px;
+     position: absolute;
+    top: 670px;
+    left: 400px;     
+}
+
+.adv-item {
+    text-align: center;
+    font-size: 15px;
+}
+
+.icon-circle {
+    width: 120px;
+    height: 120px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    margin-bottom: 10px;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
+
+.chef-cards {
+    display: flex;
+    gap: 10px;
+}
+
+.chef-img {
+    width: 200px;
+    height: 250px;
+    background-color: #eee;
+    border-radius: 5px;
+    background-size: 200px 250px;
+    background-image: url('для курача/девушка.jpg');
+    position: absolute;
+        top: 650px;      /* отступ сверху */
+        left: 1110px;    /* отступ слева */
+}
+.chef-img2 {
+     width: 200px;
+    height: 250px;
+    background-color: #eee;
+    border-radius: 5px;
+    background-size: 200px 250px;
+    background-image: url('для курача/мужчина.jpg');
+    position: absolute;
+        top: 650px;      /* отступ сверху */
+        left: 1320px;    /* отступ слева */
+    
+}
+
+
+/* Products and Form */
+.products-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    padding-bottom: 50px;
+    position: absolute;
+        top: 950px;      /* отступ сверху */
+        left: 380px;    /* отступ слева */
+}
+
+.form-box {
+    background-color: #fff4f1;
+    border: 2px solid #d18a8a;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-tabs {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.form-tabs button {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid var(--main-color);
+    background: none;
+    cursor: pointer;
+}
+
+.form-tabs button.active {
+    background-color: var(--main-color);
+    color: white;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.product-card1 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    position: absolute;
+        top: 1000px;      /* отступ сверху */
+        left: 1110px;    /* отступ слева */
+        width: 200px;
+        
+}
+
+.text-1{
+   padding-top: -100px;     /* внутренний отступ сверху */
+    margin-top: -920px;      /* отодвигаем вниз */
+    margin-left: 1115px; 
+}
+
+.product-card2 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    position: absolute;
+        top: 1000px;      /* отступ сверху */
+        left: 1320px;    /* отступ слева */
+        width: 200px;
+}
+
+.text-2{
+   padding-top: -500px;     /* внутренний отступ сверху */
+    margin-top: -70px;      /* отодвигаем вниз */
+    margin-left: 1325px;  
+}
+
+.product-card3 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    position: absolute;
+        top: 1300px;      /* отступ сверху */
+        left: 1110px;    /* отступ слева */
+        width: 200px;
+}
+
+.text-3{
+   padding-top: -500px;     /* внутренний отступ сверху */
+    margin-top: 245px;      /* отодвигаем вниз */
+    margin-left: 1325px; 
+}
+
+.product-card4 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    position: absolute;
+        top: 1300px;      /* отступ сверху */
+        left: 1320px;    /* отступ слева */
+        width: 200px;
+}
+
+.text-4{
+   padding-top: -100px;     /* внутренний отступ сверху */
+    margin-top: -69px;      /* отодвигаем вниз */
+    margin-left: 1115px; 
+    
+}
+
+.text-5{
+   padding-top: -100px;     /* внутренний отступ сверху */
+    margin-top: -650px;      /* отодвигаем вниз */
+    margin-left: 1115px; 
+    font-family: Lily Script One;
+
+}
+
+.text-6{
+    padding-top: -100px;     /* внутренний отступ сверху */
+    margin-top: -390px;      /* отодвигаем вниз */
+    margin-left: 1110px; 
+    font-family: Lily Script One;
+
+}
+
+.text-7{
+   padding-top: -100px;     /* внутренний отступ сверху */
+    margin-top: -48px;      /* отодвигаем вниз */
+    margin-left: 410px; 
+    font-family: Lily Script One;
+
+}
+
+.foto{
+    width: 331px;
+    height: 400px;
+    background-color: #eee;
+    border-radius: 5px;
+    background-image:url('для курача/result_2 повара.jpg'); 
+    position: absolute;
+        top: -600px;      /* отступ сверху */
+        left: 410px;
+}
+
+/* Footer */
+.footer {
+    background-color: #fff4e6;
+    padding: 30px 0;
+    position: absolute;
+        width: 100%;
+        height: 70px;
+        top: 2000px;
+        
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    background-image:url('');
+
+}
+
+.icons2{
+    position: absolute;
+        top: 75px;      /* отступ сверху */
+        left: 518px;    /* отступ слева */
+        width: 200px;
+}
+
+.icons3{
+    position: absolute;
+        top: 75px;      /* отступ сверху */
+        left: 461px;    /* отступ слева */
+        width: 200px;
+}
+
+.my-form-widget * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        .my-form-widget {
+            width: 100%;
+            max-width: 400px;
+            font-family: Arial, sans-serif;
+              margin-top: 470px;      /* двигает вниз */
+    margin-left: -550px;      /* двигает вправо */
+    /* или */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+        }
+        .my-form-widget .form-box {
+            background: #fdf5ec;
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .my-form-widget .form-tabs {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 25px;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+        .my-form-widget .form-tabs button {
+            background: none;
+            border: none;
+            padding: 5px 0;
+            font-size: 16px;
+            cursor: pointer;
+            color: #333;
+        }
+        .my-form-widget .form-tabs button.active {
+            color: #d18a8a;
+        }
+        .my-form-widget input, 
+        .my-form-widget textarea {
+            width: 100%;
+            padding: 12px 15px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            background: #fdf5ec;
+        }
+        .my-form-widget input:focus, 
+        .my-form-widget textarea:focus {
+            outline: none;
+            border-color: #d18a8a;
+        }
+        .my-form-widget .submit-btn {
+            width: 100%;
+            padding: 12px;
+            background: #d18a8a;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .my-form-widget .submit-btn:hover {
+            background: #b97070;
+        }
+        .my-form-widget .rating {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 15px;
+        }
+        .my-form-widget .star {
+            font-size: 24px;
+            cursor: pointer;
+            color: #ccc;
+        }
+        .my-form-widget .star.active {
+            color: #ffc107;
+        }
+
+        
